@@ -25,9 +25,9 @@ export const data=[
     },
     {
         id:4,
-        name:"React JS Application",
+        name:"Movie_Land",
         image:RealEst,
-        github:"",
+        github:"https://github.com/shailja026/movies_with_api",
         live:"",
     },
 
