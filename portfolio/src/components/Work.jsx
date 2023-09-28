@@ -53,6 +53,7 @@ const Work = () => {
             Live
           </button>
         </a>
+        <p>{item.desc}</p>
       </div>
     </div>
   </div>
