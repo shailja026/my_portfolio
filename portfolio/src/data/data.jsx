@@ -3,6 +3,8 @@ import RealEst from '../assets/projects/realestate.jpg'
 import amazonPster from "../assets/projects/amazonClone/amazonPoster.png"
 import stopwatch from "../assets/projects/amazonClone/stopwatch.png"
 import stpotify from "../assets/projects/amazonClone/sptify.png"
+import gym from "../assets/projects/gym.png"
+import cara from "../assets/projects/cara.png"
 export const data=[
     {
         id:0,
@@ -16,24 +18,18 @@ export const data=[
     {
         id:1,
         name:"Gym_website",
-        image:WorkIm,
+        image:gym,
         github:"https://github.com/shailja026/Gym_website/tree/master",
-        live:"https://bright-chimera-e1fef3.netlify.app/",
+        live:"https://github.com/shailja026/pretty_fit.git",
     },
     {
-        id:2,
-        name:"Twitter_clone",
-        image:RealEst,
-        github:"https://github.com/shailja026/abcd/tree/tweet",
-        live:"https://peaceful-gaufre-7ba2da.netlify.app/",
+        id:7,
+        name:"Cara",
+        image:cara,
+        github:"https://github.com/shailja026/Cara/tree/master/E-commerce",
+        live:"https://e-commerce-clone-gd2.netlify.app/",
     },
-    {
-        id:3,
-        name:"Kanban-board ",
-        image:WorkIm,
-        github:"https://github.com/shailja026/kanban-board",
-        live:"https://rococo-snickerdoodle-36b4ce.netlify.app/",
-    },
+   
     {
         id:4,
         name:"Movie_Land",
@@ -55,6 +51,20 @@ export const data=[
         github:"https://github.com/shailja026/music_app.git",
         live:"https://music-app-six-taupe.vercel.app/",
     },
+    {
+        id:2,
+        name:"Twitter_clone",
+        image:RealEst,
+        github:"https://github.com/shailja026/abcd/tree/tweet",
+        live:"https://peaceful-gaufre-7ba2da.netlify.app/",
+    },
+    {
+        id:3,
+        name:"Kanban-board ",
+        image:WorkIm,
+        github:"https://github.com/shailja026/kanban-board",
+        live:"https://rococo-snickerdoodle-36b4ce.netlify.app/",
+    }
 
 
 ]

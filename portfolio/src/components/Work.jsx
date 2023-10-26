@@ -9,7 +9,7 @@ const Work = () => {
     //setProject(data);
   
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f] h-auto'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
@@ -19,11 +19,11 @@ const Work = () => {
         </div>
 
 {/* container for projects */}
-<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 h-auto mb-52">
           
           {/* Gird Item */}
           {project.map((item, index) => (
-  <div
+  <di
     key={index}
     style={{ backgroundImage: `url(${item.image})` }}
     className="shadow-lg shadow-[#040c16] group container rounded-md 
@@ -56,7 +56,7 @@ const Work = () => {
         <p>{item.desc}</p>
       </div>
     </div>
-  </div>
+  </di>
 ))}
 
 
